@@ -1,0 +1,47 @@
+.sliderContainer {
+    width: 600px;
+    height: 600px;
+}
+
+.comparison {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.baseImage {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url("https://pliki.portalsamorzadowy.pl/i/16/34/72/163472.jpg");
+    background-size: cover;
+}
+
+.divisor {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-image: url("https://img.bielsko.info/2022/05/rusza_rewitalizacja_parku_wlokniarzy_zmieni_on_swoje_oblicze_8ac4.jpg");
+    background-size: cover;
+}
+
+input[type=range] {
+    appearance: none;
+    -webkit-apearance: none;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    background-color: transparent;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    border: 4px solid white;
+    width: 40px;
+    height: 40px;
+    appearance: none;
+    -webkit-appearance: none;
+    border-radius: 50%;
+}
